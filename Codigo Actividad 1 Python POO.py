@@ -1,55 +1,5 @@
 import math
 
-# EJERCICIO N°4
-
-class Familia:
-    def __init__(self, edad_juan):
-        self.edad_juan = edad_juan
-
-    def calcular_alberto(self):
-        return (2 / 3) * self.edad_juan
-
-    def calcular_ana(self):
-        return (4 / 3) * self.edad_juan
-
-    def calcular_mama(self):
-        return self.edad_juan + self.calcular_alberto() + self.calcular_ana()
-
-    def mostrar_edades(self):
-        print(f"Edad de Juan: {self.edad_juan}")
-        print(f"Edad de Alberto: {self.calcular_alberto()}")
-        print(f"Edad de Ana: {self.calcular_ana()}")
-        print(f"Edad de la mamá: {self.calcular_mama()}")
-
-# Ejecución
-edades = Familia(9) # Ejemplo usando 9 años para Juan
-edades.mostrar_edades()
-
-# EJERCICIO N°5
-
-class PruebaEscritorio:
-    def __init__(self):
-        self.suma = 0
-        self.x = 0
-        self.y = 0
-
-    def ejecutar_algoritmo(self):
-        self.suma = 0
-        self.x = 20
-        self.suma = self.suma + self.x
-        self.y = 40
-        self.x = self.x + self.y ** 2
-        self.suma = self.suma + self.x / self.y
-
-    def mostrar_resultado(self):
-        print(f"EL VALOR DE LA SUMA ES: {self.suma}")
-
-# Ejecución
-prueba = PruebaEscritorio()
-prueba.ejecutar_algoritmo()
-prueba.mostrar_resultado()
-
-
 
 # EJERCICIO N°12
 
